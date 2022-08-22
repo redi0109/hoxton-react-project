@@ -1,43 +1,38 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
-
+import './App.css';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
+    <header className='header'>
+      <div className='logo'>
+       <img className='logo-img'  src='../public/images/logo.png' >
+        </img>
+      </div>
+      <div className='menu'>
+        <ul>
+          <li>Pizza</li>
+          <li>Samdwiches</li>
+          <li>Salads</li>
+          <li>Lunch</li>
+          <li>Drinks</li>
+          <li>Beers</li>
+          </ul>
+         
+      </div>
+      <div className='search-bar'>
+        <input type='text' placeholder='Search'></input>
+      </div>
+      <div className='cart'>
+        <ShoppingCartIcon/>
+      </div>
+    </header>
+    <main className='main'>
+
+    </main>
+    <footer className='footer'>
+      </footer>
     </div>
   )
 }
