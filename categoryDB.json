@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Pizza",
+      "products": [
+        {
+          "id": 1,
+          "productName": "pizza",
+          "image": "",
+          "ingredients": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Sandwiches"
+    },
+    {
+      "id": 3,
+      "title": "Salads"
+    },
+    {
+      "id": 4,
+      "title": "Lunch"
+    },
+    {
+      "id": 5,
+      "title": "Drinks"
+    },
+    {
+      "id": 1,
+      "title": "Beers"
+    }
+  ]
+}
