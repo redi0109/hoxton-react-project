@@ -1,15 +1,14 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import {Header} from "./Header";
-import { Mainn } from "./Mainn";
+import { Home } from "./Home";
 
 function App() {
   return (
     <div className="App">
-     
-    <Header/>
-    <Mainn/>
 
-     
+     <Routes>
+      <Route index element={<Home/>} />
+    </Routes>
  
     </div>
   );

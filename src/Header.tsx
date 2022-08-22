@@ -1,4 +1,5 @@
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { Link } from "react-router-dom";
 import "./App.css";
 
 export function Header (){
@@ -9,12 +10,24 @@ export function Header (){
         </div>
         <div className="menu">
           <ul>
-            <li>Pizza</li>
-            <li>Sandwiches</li>
-            <li>Salads</li>
-            <li>Lunch</li>
-            <li>Drinks</li>
-            <li>Beers</li>
+            <li className="menu-item">
+              <Link to='/pizza'>Pizza</Link>
+              </li>
+              <li className="menu-item">
+              <Link to='/sandwiches'>Sandwiches</Link>
+              </li>
+              <li className="menu-item">
+              <Link to='/salads'>Salads</Link>
+              </li>
+              <li className="menu-item">
+              <Link to='/lunch'>Lunch</Link>
+              </li>
+              <li className="menu-item">
+              <Link to='/drinks'>Drinks</Link>
+              </li>
+              <li className="menu-item">
+              <Link to='/beers'>Beers</Link>
+              </li>
           </ul>
         </div>
 

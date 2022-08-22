@@ -37,11 +37,6 @@ li {
   transition: all 0.3s ease-in-out;
 }
 
-li:hover {
-  color: #dc3232;
-  cursor: pointer;
-}
-
 .search-bar {
   margin: auto;
   position: relative;
@@ -73,4 +68,15 @@ li:hover {
 }
 .number {
   color: #dc3232;
+}
+
+.menu-item a{
+  
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.menu-item a:hover{
+  color: #dc3232;
+  cursor: pointer;
 }
