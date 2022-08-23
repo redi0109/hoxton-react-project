@@ -76,3 +76,15 @@ li {
   color: #dc3232;
   cursor: pointer;
 }
+
+.category-page{
+  display: grid;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://imgs.search.brave.com/Puegxtax4wMGUJRevC4iHlB1tv5pCF82za0DfI-AFcE/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXM0LmFscGhhY29k/ZXJzLmNvbS8xMDcv/MTA3ODk4NS5qcGc);
+  background-size: 100%;
+  background-repeat: repeat;
+  height: 300vh;
+  
+}

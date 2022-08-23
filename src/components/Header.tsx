@@ -2,16 +2,11 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { useEffect, useState } from "react";
 import { NavLink, Link, Router } from "react-router-dom";
 import "../App.css";
-import { Pizza } from "../pages/Pizza";
 
 export function Header() {
-  const [categories, setCategories] = useState([]);
 
-  useEffect(() => {
-    fetch("http://localhost:3001/categories")
-      .then((resp) => resp.json())
-      .then((categoriesFromServer) => setCategories(categoriesFromServer));
-  }, []);
+
+
 
   return (
     <header className="header">
@@ -20,10 +15,24 @@ export function Header() {
       </div>
       <div className="menu">
         <ul>
-          {categories.map((category) => (
-          <li className="menu-item"> <a href="#">{category.title}</a></li>
-          ))}
-         
+          <li className="menu-item">
+            <Link to='/pizza'>Pizza</Link>
+          </li>
+          <li className="menu-item">
+            <Link to="#">Sandwiches</Link>
+          </li>
+          <li className="menu-item">
+            <Link to="#">Salads</Link>
+          </li>
+          <li className="menu-item">
+            <Link to="#">Lunch</Link>
+          </li>
+          <li className="menu-item">
+            <Link to="#">Drinks</Link>
+          </li>
+          <li className="menu-item">
+            <Link to="#">Beers</Link>
+          </li>
         </ul>
       </div>
 
@@ -40,8 +49,4 @@ export function Header() {
       </div>
     </header>
   );
-}
-
-function category(category: any): void | PromiseLike<void> {
-  throw new Error("Function not implemented.");
 }
