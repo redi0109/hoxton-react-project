@@ -1,12 +1,95 @@
-{
-  "pizzas": [
+ {
+   "pizzas": [
 
     {
       "id": 1,
-      "name": "margarita",
+      "name": "Margarita",
+      "image": "public/images/margherita.JPG",
+      "ingredients": "Tomato sauce, Mozzarella",
+      "price": 3.5
+    },
+    {
+      "id": 2,
+      "name": "4 Seasons",
+      "image": "public/images/4cheese.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Cotto ham, Tuna fish, Mushrooms, Salami",
+      "price": 5
+    },
+    {
+      "id": 3,
+      "name": "Buffalo",
+      "image": "public/images/buffalo.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Buffalo mozzarella, Crudo",
+      "price": 7.5
+    },
+    {
+      "id": 4,
+      "name": "Hellfire",
+      "image": "public/images/hellfire.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Spianata, Spicy cheese, Tabasco",
+      "price": 6
+    },
+    {
+      "id": 5,
+      "name": "La Crema",
       "image": "public/images/lacrema.JPG",
-      "ingredients": "yes yes"
+      "ingredients": "Mozzarella, Panna, Spicy salami, Mushrooms",
+      "price": 5.5
+    },
+    {
+      "id": 6,
+      "name": "Pepperoni",
+      "image": "public/images/pepperoni.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Cotto ham,Mushrooms, Olives, Peppers",
+      "price": 5
+    },
+    {
+      "id": 7,
+      "name": "Popeye",
+      "image": "public/images/popey.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Bacon, Spinach, Morsels of Mozzarella",
+      "price": 6.5
+    },
+    {
+      "id": 8,
+      "name": "Primavera",
+      "image": "public/images/primavera.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Crudo, Ruccola, Cherry tomatoes, Morsels of mozzarella",
+      "price": 6.5
+    },
+    {
+      "id": 9,
+      "name": "Tartuffo",
+      "image": "public/images/tartuffo.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Crudo, Ruccola, Cherry tomatoes, Morsels of mozzarella",
+      "price": 5
+    },
+    {
+      "id": 10,
+      "name": "The Basement",
+      "image": "public/images/thebasemant.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Spianata, Fior di Latte, Truffle sauce, Porcini, Grana, Basil",
+      "price": 10
+    },
+    {
+      "id": 11,
+      "name": "Tonno",
+      "image": "public/images/tuna.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Cotto ham, Tuna fish, Mushrooms, Salami",
+      "price": 5
+    },
+    {
+      "id": 12,
+      "name": "Veggie",
+      "image": "public/images/veggie.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Vegetables",
+      "price": 5
     }
+    
+    
+    
+
+    
 
     
   

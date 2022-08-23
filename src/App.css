@@ -86,5 +86,21 @@ li {
   background-size: 100%;
   background-repeat: repeat;
   height: 300vh;
+
   
 }
+
+.products-section{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.product{
+  align-items: center;
+}
+
+.product-img{
+  width: 50%;
+}
+
