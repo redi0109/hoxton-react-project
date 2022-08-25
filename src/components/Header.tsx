@@ -19,7 +19,7 @@ export function Header() {
             <Link to='/pizza'>Pizza</Link>
           </li>
           <li className="menu-item">
-            <Link to="#">Sandwiches</Link>
+            <Link to="/sandwiches">Sandwiches</Link>
           </li>
           <li className="menu-item">
             <Link to="#">Salads</Link>
