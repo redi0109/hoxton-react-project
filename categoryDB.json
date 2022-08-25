@@ -167,7 +167,7 @@
         "price": 4
       }
     ],
-    "lunch":[
+    "lunches":[
       {
         "id": 1,
         "name": "Lunch Menu 1",
@@ -322,7 +322,7 @@
           {
             "id": 3,
             "name": "Niksicko",
-            "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0864.jpeg",
+            "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0861.jpeg",
             "description": "330 ml - 5% alc - Beer of Montenegro",
             "price": 1.2
           },

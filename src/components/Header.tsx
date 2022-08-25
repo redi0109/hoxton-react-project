@@ -31,7 +31,7 @@ export function Header() {
             <Link to="#">Drinks</Link>
           </li>
           <li className="menu-item">
-            <Link to="#">Beers</Link>
+            <Link to="/beers">Beers</Link>
           </li>
         </ul>
       </div>
