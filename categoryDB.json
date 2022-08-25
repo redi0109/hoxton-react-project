@@ -85,13 +85,49 @@
       "ingredients": "Tomato sauce, Mozzarella, Vegetables",
       "price": 5
     }
-    
-    
-    
-
-    
-
-    
-  
-      ]
+    ],
+    "sandwiches":[
+      {
+        "id": 1,
+        "name": "Cotto Sandwich",
+        "image": "https://imgs.search.brave.com/ZPffpEYWeMUgdKdj5aSjUoWXclHHLWIRD5eGlOqlu1g/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC54/LURSSi0xZG9jSlBW/UFRjU3B0YkhRSGFF/OCZwaWQ9QXBp",
+        "ingredients": "Mozzarella, Cotto ham, Lettuce, Mayonnaise",
+        "price": 1.5
+      },
+      {
+        "id": 2,
+        "name": "Spicy Sandwich",
+        "image": "https://imgs.search.brave.com/fGDmwK-PxyyFp6MvEvnI7qXe4UF0UL-eB2yylgbHlvg/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5w/akJaMlhDQmRpaWZK/ZDJxVGg5d0Z3SGFF/OCZwaWQ9QXBp",
+        "ingredients": "Mozzarella, Spicy salami, Lettuce, Mayonnaise",
+        "price": 2
+      },
+      {
+        "id": 3,
+        "name": "Tuna Sandwich",
+        "image": "https://imgs.search.brave.com/hTJG-djYAqT3aknL3B8okOY7wRLCz1fN_yZqmTYrCXc/rs:fit:695:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5G/RHRoUXFqSG1aamdC/VXN3ODMxdG53SGFG/RCZwaWQ9QXBp",
+        "ingredients": "Mozzarella, Tuna fish, Olives, Lettuce, Mayonnaise",
+        "price": 1.5
+      },
+      {
+        "id": 4,
+        "name": "Veggie Sandwich",
+        "image": "https://imgs.search.brave.com/HGv9Qy3iEDnLlsJm5D5pwfzLgYh51aIHi96HKCjRMok/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC56/ekJxeGFhT1NKcTh3/NEpZamg1QllBSGFI/YSZwaWQ9QXBp",
+        "ingredients": "Mozzarella, Vegetables, Lettuce, Mayonnaise",
+        "price": 1.5
+      },
+      {
+        "id": 5,
+        "name": "Chicken Sandwich",
+        "image": "https://imgs.search.brave.com/VFtUQ2U40wlVU5A-K9zKl-ej1kyih2RQHU3sMe24wQw/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4t/UEhPTm83N3dQcmFa/ZG0wcllmZEZRSGFF/OCZwaWQ9QXBp",
+        "ingredients": "Mozzarella, Vegetables, Lettuce, Mayonnaise",
+        "price": 2
+      },
+      {
+        "id": 6,
+        "name": "4 Cheese Sandwich",
+        "image": "https://imgs.search.brave.com/zycQl2ovaiQER4EBP5FPGSBk8FYdu8G919HDbHs9t8A/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5k/YVlhQkJ1Uk9tZzVM/MGVNX0dtWERRSGFF/OCZwaWQ9QXBp",
+        "ingredients": "Mozzarella, Feta Cheese, Blue Cheese, Grana",
+        "price": 2
+      }
+    ]
     }

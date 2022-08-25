@@ -20,22 +20,19 @@ export function Pizza (){
     return(
 
         <div className="category-page">
-            <div className="category-name"> 
-            <h1>Pizza</h1>
+         <h1 className="category-name">Pizza</h1>
+         <div className="products-section">
             {pizzas.map((pizza) => 
-            <div className="products-section">
+          
               <div className="product">
                 <img className="product-img" src={pizza.image}/>
                 <h2 className="product-name">{pizza.name} </h2>
                 </div>
-           
-
-            </div>
-            )}
-          
+             )}
+                   </div>
 
 
-            </div>
+            
         </div>
     )
 }
