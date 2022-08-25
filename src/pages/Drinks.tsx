@@ -2,15 +2,14 @@ import { useEffect, useState } from "react";
 import "../App.css";
 
 
-
-export function Beers (){
-    const [beers, setBeers] = useState([]);
+export function Drinks (){
+    const [drinks, setDrinks] = useState([]);
     
    
     function getDatafromServer(){
-        fetch("http://localhost:3001/beers")
+        fetch("http://localhost:3001/drinks")
         .then ((resp) => resp.json() )
-        .then ((data) => setBeers(data));
+        .then ((data) => setDrinks(data));
     }
    
     useEffect(() => {
@@ -21,13 +20,13 @@ export function Beers (){
     return(
 
         <div className="category-page">
-         <h1 className="category-name">Beers</h1>
+         <h1 className="category-name">Drinks</h1>
          <div className="products-section">
-            {beers.map((beer) => 
+            {drinks.map((drink) => 
           
               <div className="product">
-                <img className="product-img" src={beer.image}/>
-                <h2 className="product-name">{beer.name} </h2>
+                <img className="product-img" src={drink.image}/>
+                <h2 className="product-name">{drink.name} </h2>
                 </div>
              )}
                    </div>
