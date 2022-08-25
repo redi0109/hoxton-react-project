@@ -129,5 +129,179 @@
         "ingredients": "Mozzarella, Feta Cheese, Blue Cheese, Grana",
         "price": 2
       }
-    ]
+    ],
+    "salads":[
+      {
+        "id": 1,
+        "name": "Tricolor Salad",
+        "image": "https://imgs.search.brave.com/IBsrBZ9iUyOEt4C7ZRPNl3B8JBTGFQ3PRs2YVAIcgZ4/rs:fit:715:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5v/bHRwcUNWQ1hYSEVX/MFV5ZURreVp3SGFF/NiZwaWQ9QXBp",
+        "ingredients": "White cabbage, Red cabbage, Carrots",
+        "price": 2
+      },
+      {
+        "id": 2,
+        "name": "Lettuce Salad",
+        "image": "https://imgs.search.brave.com/ULan1LhWqOgPLHeCFkCB7IJhYPMulOgyQeR-19aG5p4/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5o/V0pVaGNDZk1WYWRy/ZWVqN3M2Um9BSGFI/YSZwaWQ9QXBp",
+        "ingredients": "Lettuce, Olives, Cherry tomatoes",
+        "price": 2.5
+      },
+      {
+        "id": 3,
+        "name": "Greek Salad",
+        "image": "https://imgs.search.brave.com/VuG89mEv0tPGUs55ouzFNEhoSzN5_tFVjlSNZF2UUHs/rs:fit:489:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC53/OUdCNzU2aTNMSHdZ/LW00T1kxWjFBSGFI/TCZwaWQ9QXBp",
+        "ingredients": "Lettuce, Tomatoes, Cucumber, Onions, Olives, Feta cheese",
+        "price": 3
+      },
+      {
+        "id": 4,
+        "name": "Ruccola Salad",
+        "image": "https://imgs.search.brave.com/qwxWm739yDeXVawlc4mz2lugyByIcsUG9Q-KZRVTcVo/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Z/ZFd3dm9wWnRLZ1pH/bGttWENMQi1BSGFF/NyZwaWQ9QXBp",
+        "ingredients": "Ruccola, Grana, Cherry tomatoes, Aceto",
+        "price": 4
+      },
+      {
+        "id": 5,
+        "name": "Caesar Saladh",
+        "image": "https://imgs.search.brave.com/6Y1t5htn5ZI6UUowEfLLqZNkm5Xue3zV6erXWHRX2Sw/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC50/MUJYZHNQTFYyMFZV/ci1VQUJHWkdBSGFI/YSZwaWQ9QXBp",
+        "ingredients": "Mozzarella, Vegetables, Lettuce, Mayonnaise",
+        "price": 4
+      }
+    ],
+    "lunch":[
+      {
+        "id": 1,
+        "name": "Lunch Menu 1",
+        "image": "https://imgs.search.brave.com/oYwgidfs3E-vJHryqktgncteSPhsohm21YU_H2Lhshc/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5i/eDV1dHg5R3hHVjdS/cS1XOUJMVTFnSGFF/NyZwaWQ9QXBp",
+        "ingredients": "Chicken Soup + Chicken Fillet + Lettuce Salad or Tricolor Salad",
+        "price": 5
+      },
+      {
+        "id": 2,
+        "name": "Lunch Menu 2",
+        "image": "https://i.pinimg.com/564x/cc/54/e6/cc54e6b21c2baec96f71450cdd9c1e63.jpg",
+        "ingredients": "Chicken Soup + Cotto Sandwich + Lettuce Salad or Tricolor Salad",
+        "price": 5
+      },
+      {
+        "id": 3,
+        "name": "Chicken Soup",
+        "image": "https://i.pinimg.com/564x/3d/a7/3a/3da73a805d842a2dc75555cb746c61d0.jpg",
+        "ingredients": "",
+        "price": 2
+      },
+      {
+        "id": 4,
+        "name": "Chicken Fillet",
+        "image": "https://i.pinimg.com/564x/c8/1a/12/c81a127ff082f75ef72786379c687677.jpg",
+        "ingredients": "",
+        "price": 5
+      }
+    ],
+    "drinks":[
+      {
+        "id": 1,
+        "name": "Water",
+        "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0862.jpeg",
+        "description": "Plastic bottle - 500 ml",
+        "price": 0.7
+      },
+      {
+        "id": 2,
+        "name": "Sparkling Water",
+        "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0863.jpeg",
+        "description": "Plastic bottle - 500 ml",
+        "price": 0.7
+      },
+      {
+        "id": 3,
+        "name": "Water",
+        "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0864.jpeg",
+        "description": "Glass Bottle - 500 ml",
+        "price": 1.5
+      },
+      {
+        "id": 4,
+        "name": "Sparkling Water",
+        "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0865.jpeg",
+        "description": "Glass bottle - 500 ml",
+        "price": 1.5
+      },
+      {
+        "id": 5,
+        "name": "Coca Cola",
+        "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0874.jpeg",
+        "description": "Can - 330 ml",
+        "price": 1.2
+      },
+      {
+        "id": 6,
+        "name": "Coca Cola Zero",
+        "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0875.jpeg",
+        "description": "Can - 330 ml",
+        "price": 1.2
+      },
+      {
+        "id": 7,
+        "name": "Fanta Exotic",
+        "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0877.jpeg",
+        "description": "Can - 330 ml",
+        "price": 1.2
+      },
+      {
+        "id": 8,
+        "name": "Fanta Orange",
+        "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0876.jpeg",
+        "description": "Can - 250 ml",
+        "price": 1.5
+      },
+      {
+        "id": 9,
+        "name": "Bravo Green Apple Juice",
+        "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0869.jpeg",
+        "description": "Can - 250 ml",
+        "price": 1.5
+      },
+      {
+        "id": 10,
+        "name": "Bravo Strawberry Juice",
+        "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0868.jpeg",
+        "description": "Can - 250 ml",
+        "price": 1.5
+      },
+      {
+        "id": 11,
+        "name": "Bravo Grape Juice",
+        "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0867.jpeg",
+        "description": "330 ml - Can",
+        "price": 1.5
+      },
+      {
+        "id": 12,
+        "name": "Oran' Soda",
+        "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0870.jpeg",
+        "description": "Can - 330 ml",
+        "price": 1.2
+      },
+      {
+        "id": 13,
+        "name": "Lipton Ice Tea Lemon",
+        "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0871.jpeg",
+        "description": "Can - 330 ml",
+        "price": 1.2
+      },
+      {
+        "id": 14,
+        "name": "Lipton Ice Tea Peach",
+        "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0872.jpeg",
+        "description": "Glass Bottle - 500 ml",
+        "price": 1.5
+      },
+      {
+        "id": 15,
+        "name": "Coca Cola",
+        "image": "https://public.takeaseat.io/restaurants/f584cbe7-a171-4b2b-8c15-300c37c50cda/images/IMG_0864.jpeg",
+        "description": "Plastic bottle - 1.5L - Only for delivery*",
+        "price": 1.5
+      }
+        ]
     }

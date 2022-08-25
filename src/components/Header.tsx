@@ -22,10 +22,10 @@ export function Header() {
             <Link to="/sandwiches">Sandwiches</Link>
           </li>
           <li className="menu-item">
-            <Link to="#">Salads</Link>
+            <Link to="/salads">Salads</Link>
           </li>
           <li className="menu-item">
-            <Link to="#">Lunch</Link>
+            <Link to="/lunch">Lunch</Link>
           </li>
           <li className="menu-item">
             <Link to="#">Drinks</Link>
