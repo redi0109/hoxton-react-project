@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import "../App.css";
+import { Header } from "../components/Header";
+import {Drink} from "../types"
+
 
 
 export function Drinks (){
-    const [drinks, setDrinks] = useState([]);
+    const [drinks, setDrinks] = useState<Drink[]>([]);
     
    
     function getDatafromServer(){
@@ -18,21 +21,19 @@ export function Drinks (){
 
 
     return(
-
-        <div className="category-page">
-         <h1 className="category-name">Drinks</h1>
-         <div className="products-section">
-            {drinks.map((drink) => 
-          
-              <div className="product">
-                <img className="product-img" src={drink.image}/>
-                <h2 className="product-name">{drink.name} </h2>
+       <div className="category-page">
+            <Header />
+            <h1 className="category-name">Drinks</h1>
+            <div className="products-section">
+                {drinks.map((drink) => <div className="product">
+                    <img className="product-img" src={drink.image} />
+                    <h2 className="product-name">{drink.name} </h2>
                 </div>
-             )}
-                   </div>
+                )}
+            </div>
 
 
-            
+
         </div>
     )
 }

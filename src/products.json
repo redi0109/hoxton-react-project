@@ -1,5 +1,5 @@
- {
-   "pizzas": [
+ {"products": [
+   {"pizzas": [
 
     {
       "id": 1,
@@ -85,8 +85,8 @@
       "ingredients": "Tomato sauce, Mozzarella, Vegetables",
       "price": 5
     }
-    ],
-    "sandwiches":[
+    ]},
+   { "sandwiches":[
       {
         "id": 1,
         "name": "Cotto Sandwich",
@@ -129,8 +129,8 @@
         "ingredients": "Mozzarella, Feta Cheese, Blue Cheese, Grana",
         "price": 2
       }
-    ],
-    "salads":[
+    ]},
+   { "salads":[
       {
         "id": 1,
         "name": "Tricolor Salad",
@@ -166,8 +166,8 @@
         "ingredients": "Mozzarella, Vegetables, Lettuce, Mayonnaise",
         "price": 4
       }
-    ],
-    "lunches":[
+    ]},
+    {"lunches":[
       {
         "id": 1,
         "name": "Lunch Menu 1",
@@ -196,8 +196,8 @@
         "ingredients": "",
         "price": 5
       }
-    ],
-    "drinks":[
+    ]},
+   { "drinks":[
       {
         "id": 1,
         "name": "Water",
@@ -303,8 +303,8 @@
         "description": "Plastic bottle - 1.5L - Only for delivery*",
         "price": 1.5
       }
-        ],
-        "beers":[
+        ]},
+       { "beers":[
           {
             "id": 1,
             "name": "Tirana Kuqalashe",
@@ -410,5 +410,5 @@
             "description": "330 ml - 10% alc - Beer of Netherland",
             "price": 4
           }
-            ]
+         ] }]
     }

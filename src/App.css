@@ -2,6 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+ 
+}
+
+.home{
   background-image: url(https://imgs.search.brave.com/Puegxtax4wMGUJRevC4iHlB1tv5pCF82za0DfI-AFcE/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXM0LmFscGhhY29k/ZXJzLmNvbS8xMDcv/MTA3ODk4NS5qcGc);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -20,6 +24,7 @@
 
 .logo-img {
   width: 150px;
+  
 }
 
 li {
@@ -78,25 +83,27 @@ li {
 }
 
 .category-page {
-  display: grid;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: rgb(44, 44, 43);
+  background-color: #796f66;
   background-size: 100%;
   background-repeat: repeat;
-  height: 300vh;
+  height: 100%;
 }
 
 .products-section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(0.5fr, 1fr));
+  grid-template-columns: auto  ;
+  padding: 0 15%;
+  gap: 2rem;
 }
 
 .product {
   display: grid;
-  border: 7px solid #e96666;
-  border-radius: 10%;
+  grid-template-columns: auto auto auto auto auto ;
+
+
 }
 
 .product-img {
@@ -114,4 +121,10 @@ li {
 
 .category-name:hover {
   color: #dc3232;
+}
+
+.product-name{
+  display: grid;
+place-content: center;
+font-size: xx-large;
 }

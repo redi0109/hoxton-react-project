@@ -4,6 +4,7 @@ import { Logo } from "./Logo";
 import { NavBar } from "./NavBar";
 import { SearchBar } from "./SearchBar";
 import { ShoppingCart } from "./ShopingCart";
+import { UserAccount } from "./UserAccount";
 
 export function Header() {
 
@@ -15,6 +16,8 @@ export function Header() {
      <NavBar/>
 
       <SearchBar/>
+
+      <UserAccount/>
 
       <ShoppingCart/>
 
