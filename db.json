@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Margarita",
+      "image": "public/images/margherita.JPG",
+      "ingredients": "Tomato sauce, Mozzarella",
+      "price": 3.5
+    },
+    {
+      "id": 2,
+      "name": "4 Seasons",
+      "image": "public/images/4cheese.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Cotto ham, Tuna fish, Mushrooms, Salami",
+      "price": 5
+    },
+    {
+      "id": 3,
+      "name": "Buffalo",
+      "image": "public/images/buffalo.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Buffalo mozzarella, Crudo",
+      "price": 7.5
+    },
+    {
+      "id": 4,
+      "name": "Hellfire",
+      "image": "public/images/hellfire.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Spianata, Spicy cheese, Tabasco",
+      "price": 6
+    },
+    {
+      "id": 5,
+      "name": "La Crema",
+      "image": "public/images/lacrema.JPG",
+      "ingredients": "Mozzarella, Panna, Spicy salami, Mushrooms",
+      "price": 5.5
+    },
+    {
+      "id": 6,
+      "name": "Pepperoni",
+      "image": "public/images/pepperoni.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Cotto ham,Mushrooms, Olives, Peppers",
+      "price": 5
+    },
+    {
+      "id": 7,
+      "name": "Popeye",
+      "image": "public/images/popey.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Bacon, Spinach, Morsels of Mozzarella",
+      "price": 6.5
+    },
+    {
+      "id": 8,
+      "name": "Primavera",
+      "image": "public/images/primavera.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Crudo, Ruccola, Cherry tomatoes, Morsels of mozzarella",
+      "price": 6.5
+    },
+    {
+      "id": 9,
+      "name": "Tartuffo",
+      "image": "public/images/tartuffo.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Crudo, Ruccola, Cherry tomatoes, Morsels of mozzarella",
+      "price": 5
+    },
+    {
+      "id": 10,
+      "name": "The Basement",
+      "image": "public/images/thebasemant.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Spianata, Fior di Latte, Truffle sauce, Porcini, Grana, Basil",
+      "price": 10
+    },
+    {
+      "id": 11,
+      "name": "Tonno",
+      "image": "public/images/tuna.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Cotto ham, Tuna fish, Mushrooms, Salami",
+      "price": 5
+    },
+    {
+      "id": 12,
+      "name": "Veggie",
+      "image": "public/images/veggie.JPG",
+      "ingredients": "Tomato sauce, Mozzarella, Vegetables",
+      "price": 5
+    },
+    {
+      "id": 13,
+      "name": "Cotto Sandwich",
+      "image": "https://imgs.search.brave.com/ZPffpEYWeMUgdKdj5aSjUoWXclHHLWIRD5eGlOqlu1g/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC54/LURSSi0xZG9jSlBW/UFRjU3B0YkhRSGFF/OCZwaWQ9QXBp",
+      "ingredients": "Mozzarella, Cotto ham, Lettuce, Mayonnaise",
+      "price": 1.5
+    },
+    {
+      "id": 14,
+      "name": "Spicy Sandwich",
+      "image": "https://imgs.search.brave.com/fGDmwK-PxyyFp6MvEvnI7qXe4UF0UL-eB2yylgbHlvg/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5w/akJaMlhDQmRpaWZK/ZDJxVGg5d0Z3SGFF/OCZwaWQ9QXBp",
+      "ingredients": "Mozzarella, Spicy salami, Lettuce, Mayonnaise",
+      "price": 2
+    },
+    {
+      "id": 15,
+      "name": "Tuna Sandwich",
+      "image": "https://imgs.search.brave.com/hTJG-djYAqT3aknL3B8okOY7wRLCz1fN_yZqmTYrCXc/rs:fit:695:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5G/RHRoUXFqSG1aamdC/VXN3ODMxdG53SGFG/RCZwaWQ9QXBp",
+      "ingredients": "Mozzarella, Tuna fish, Olives, Lettuce, Mayonnaise",
+      "price": 1.5
+    },
+    {
+      "id": 16,
+      "name": "Veggie Sandwich",
+      "image": "https://imgs.search.brave.com/HGv9Qy3iEDnLlsJm5D5pwfzLgYh51aIHi96HKCjRMok/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC56/ekJxeGFhT1NKcTh3/NEpZamg1QllBSGFI/YSZwaWQ9QXBp",
+      "ingredients": "Mozzarella, Vegetables, Lettuce, Mayonnaise",
+      "price": 1.5
+    },
+    {
+      "id": 17,
+      "name": "Chicken Sandwich",
+      "image": "https://imgs.search.brave.com/VFtUQ2U40wlVU5A-K9zKl-ej1kyih2RQHU3sMe24wQw/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4t/UEhPTm83N3dQcmFa/ZG0wcllmZEZRSGFF/OCZwaWQ9QXBp",
+      "ingredients": "Mozzarella, Vegetables, Lettuce, Mayonnaise",
+      "price": 2
+    },
+    {
+      "id": 18,
+      "name": "4 Cheese Sandwich",
+      "image": "https://imgs.search.brave.com/zycQl2ovaiQER4EBP5FPGSBk8FYdu8G919HDbHs9t8A/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5k/YVlhQkJ1Uk9tZzVM/MGVNX0dtWERRSGFF/OCZwaWQ9QXBp",
+      "ingredients": "Mozzarella, Feta Cheese, Blue Cheese, Grana",
+      "price": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Redi",
+      "email": "redi@gmail.com",
+      "password": "redi0109",
+      "onCart": []
+    }
+  ]
+}

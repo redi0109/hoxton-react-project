@@ -1,16 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Account } from "./pages/Account";
-import { Beers } from "./pages/Beers";
-import { Drinks } from "./pages/drinks";
-import { Home } from "./pages/Home";
-import { Lunch } from "./pages/Lunch";
+import { SignIn } from "./pages/SignIn";
+import { Home } from "./pages/Home";;
 import { PageNotFound } from "./pages/NotFound";
-import { Pizza } from "./pages/Pizza";
-import { Product } from "./pages/Product";
-import { Salads } from "./pages/Salads";
-import { Sandwiches } from "./pages/Sandwiches";
+import { Menu } from "./pages/Menu";
+import { SingleProduct } from "./pages/SingleProduct";
 import { Store } from "./pages/Store";
+import { Cart } from "./components/Cart";
 
 function App() {
   return (
@@ -19,16 +15,12 @@ function App() {
      <Routes>
       <Route index element={<Home/>} />
       <Route path="/home" element={<Home/>}/>
-      <Route path="/pizza" element={<Pizza/>}/>
-      <Route path="/sandwiches" element={<Sandwiches/>}/>
-      <Route path="/salads" element={<Salads/>}/>
-      <Route path="/lunch" element={<Lunch/>}/>
-      <Route path="/beers" element={<Beers/>}/>
-      <Route path="/drinks" element={<Drinks/>}/>
-      <Route path="/account" element={<Account/>}/>
+      <Route path="/menu" element={<Menu/>}/>
+      <Route path="/signIn" element={<SignIn logIn={undefined}/>}/>
       <Route path="/store" element={<Store/>}/>
       <Route path="*" element={<PageNotFound />} />
-      <Route path="/product" element={<Product/>}/>
+      <Route path="/singleproduct" element={<SingleProduct/>}/>
+      <Route path= {"/cart"} element={<Cart/>}/>
 
       
     </Routes>

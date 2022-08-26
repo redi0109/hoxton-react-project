@@ -95,8 +95,9 @@ li {
 .products-section {
   display: grid;
   grid-template-columns: auto  ;
-  padding: 0 15%;
+  padding: 5rem 20%;
   gap: 2rem;
+
 }
 
 .product {
@@ -119,12 +120,31 @@ li {
   height: 100px;
 }
 
-.category-name:hover {
-  color: #dc3232;
-}
-
 .product-name{
   display: grid;
 place-content: center;
 font-size: xx-large;
 }
+.product-name-link{ 
+  text-decoration: none;
+  color: aliceblue;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.product-name-link:hover{
+  color: #dc3232;
+  cursor: pointer;
+}
+
+.logIn-form{
+  background-color: aliceblue;
+  width: 30em;
+  height: 35em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+

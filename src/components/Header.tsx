@@ -3,8 +3,8 @@ import "../App.css";
 import { Logo } from "./Logo";
 import { NavBar } from "./NavBar";
 import { SearchBar } from "./SearchBar";
-import { ShoppingCart } from "./ShopingCart";
-import { UserAccount } from "./UserAccount";
+import { Cart } from "./Cart";
+import { LogIn } from "./LogIn";
 
 export function Header() {
 
@@ -17,9 +17,9 @@ export function Header() {
 
       <SearchBar/>
 
-      <UserAccount/>
+      <LogIn/>
 
-      <ShoppingCart/>
+      <Cart/>
 
       
     </header>

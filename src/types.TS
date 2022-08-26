@@ -1,12 +1,5 @@
-export type Drink= {
-    id: number;
-    name: string;
-    image: string;
-    desctription: string;
-    price: number;
-  };
 
-export type Food = {
+export type Product = {
     id: number;
     name: string;
     image: string;

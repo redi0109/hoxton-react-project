@@ -1,17 +1,16 @@
 
 import { useState } from "react";
 import "../App.css";
-import productsDATA from "../products.json"
-import { Drink, Food } from "../types";
+import {  Product } from "../types";
 
 
 export function SearchBar(){
   const [query, setQuery] = useState("");  
-const [searchProduct, setSearchProduct] = useState <Food[] | Drink [] | null>();
+const [searchProduct, setSearchProduct] = useState <Product | null>();
 
 
-function searchForProduct (){
-  fetch("http://localhost:3001")
+function searchForProduct (id: number){
+  fetch("http://localhost:3001/products")
   .then((resp) => resp.json())
       .then((data) =>
         data.filter((item) =>
@@ -25,7 +24,7 @@ function searchForProduct (){
 
     return(
         <div className="search">
-          
+
         <input
           className="search-bar"
           id="searchInput"
