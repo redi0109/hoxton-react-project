@@ -13,3 +13,10 @@ export type Product = {
     email: string
     password: string
 }
+
+export type BasketItem = {
+  id: number;
+  productId: number;
+  quantity: number;
+  product: Product
+};
