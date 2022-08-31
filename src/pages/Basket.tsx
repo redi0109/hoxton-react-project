@@ -89,7 +89,7 @@ export function Basket (){
                     </p>
 
                     <p className="basket">
-                      Item total: €
+                      Item total: $
                       {(item.product.price * item.quantity).toFixed(2)}
                     </p>
                     </div>
@@ -97,7 +97,7 @@ export function Basket (){
               ))}
             </ul>
 
-            <h2>Your total: €{getTotal().toFixed(2)}</h2>
+            <h2>Your total: ${getTotal().toFixed(2)}</h2>
             </div>
         </div>
     )

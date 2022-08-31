@@ -19,7 +19,7 @@
   grid-template-columns: auto auto auto;
   place-items: center;
   width: 80%;
-  padding: 5rem ;
+  padding: 5rem 10rem;
 }
 
 .logo-img {
@@ -64,12 +64,12 @@ li {
 }
 
 .menu-item a {
-  color: white;
+  color: #dc3232;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
 .menu-item a:hover {
-  color: #dc3232;
+
   cursor: pointer;
 }
 
@@ -77,10 +77,11 @@ li {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #796f66;
+  background-color: #b5b2b2;
   background-size: 100%;
   background-repeat: repeat;
   height: 100%;
+  
 }
 
 .products-section {
@@ -100,7 +101,14 @@ li {
 
 .product-img {
   width: 50%;
+  border-radius: 12%;
 }
+
+
+.prod-name{
+color: #dc3232;
+}
+
 
 .category-name {
   display: grid;
@@ -116,18 +124,20 @@ li {
 }
 
 .basket-section {
+
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #796f66;
+  background-color: #fefefe;
   background-size: 100%;
   background-repeat: repeat;
-  height: 100vh;
+
 }
 
 .basket{
   display: grid;
   place-content: center;
+
 }
 
 .basket-item{
@@ -139,4 +149,21 @@ li {
 
 .basket-img{
 width: 50%;
+}
+
+.addToBasket{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 10px;
+ place-content: center;
+ justify-content: center;
+ align-items: center;
+border-radius: 8px;
+border: #dc3232 1px solid;
+}
+
+.prod-name a{
+  color: #dc3232;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }

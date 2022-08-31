@@ -7,6 +7,7 @@ import { NavBar } from "./NavBar";
 export function Header() {
   return (
     <header className="header">
+
       <Logo />
 
       <NavBar />
